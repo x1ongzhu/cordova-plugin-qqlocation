@@ -1,0 +1,22 @@
+{
+    "name": "cordova-plugin-qqlocation",
+    "version": "1.0.0",
+    "description": "A cordova plugin, a JS version of TencentLocation SDK",
+    "scripts": {
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/x1ongzhu/cordova-plugin-qqlocation.git"
+    },
+    "keywords": ["cordova"],
+    "author": "x1ongzhu",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/x1ongzhu/cordova-plugin-qqlocation/issues"
+    },
+    "homepage": "https://github.com/x1ongzhu/cordova-plugin-qqlocation#readme",
+    "cordova": {
+        "id": "cordova-plugin-wechat",
+        "platforms": ["android"]
+    }
+}
