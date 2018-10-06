@@ -23,7 +23,7 @@
 {
     self.locationManager = [[TencentLBSLocationManager alloc] init];
     [self.locationManager setDelegate:self];
-    [self.locationManager setApiKey:@"PPQBZ-HCQLO-MMNWE-SHIDE-Y42BH-D3F76"];
+    [self.locationManager setApiKey:[self.commandDelegate.settings objectForKey:@"api_key"]];
     [self.locationManager setPausesLocationUpdatesAutomatically:NO];
     // 需要后台定位的话，可以设置此属性为YES。
     // [self.locationManager setAllowsBackgroundLocationUpdates:YES];

@@ -40,9 +40,10 @@
             <feature name="qqlocation">
                 <param name="ios-package" value="qqlocation" />
             </feature>
+             <preference name="API_KEY" value="$API_KEY"/>
         </config-file>
         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-            <string>需要定位</string>
+            <string>我们需要通过您的地理位置信息来获取周边数据</string>
         </config-file>
         <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
             <string>需要定位</string>
